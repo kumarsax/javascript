@@ -69,6 +69,7 @@ console.log('name' in person);//returns boolean values
     
 */
 
+//Dynamic Prototype Pattern
 var dynamicPrototypePerson = function(age, name, sex){
 
         this.age = age;
